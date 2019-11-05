@@ -4,7 +4,8 @@ import {
   VictoryChart,
   VictoryAxis,
   VictoryTooltip,
-  VictoryLine
+  VictoryLine,
+  VictoryGroup
 } from "victory";
 
 const grayscale = {
@@ -893,41 +894,67 @@ const wincTheme = {
   }
 };
 
-const assignmentRatingAverage = [
-  { assignment: "W1D1-1", rating: 3.4 },
-  { assignment: "W1D1-2", rating: 3.0 },
-  { assignment: "W1D1-3", rating: 2.5 },
-  { assignment: "W1D2-1", rating: 3.9 },
-  { assignment: "W1D2-2", rating: 4.9 },
-  { assignment: "W1D3-1", rating: 2.1 },
-  { assignment: "W1D3-1", rating: 2.1 },
-  { assignment: "W1D3-2", rating: 4.1 },
-  { assignment: "W1D3-3", rating: 1.2 },
-  { assignment: "W1D3-4", rating: 3.5 },
-  { assignment: "W1D3-5", rating: 3.7 },
-  { assignment: "W1D3-6", rating: 1.5 }
+const getRandomRating = () => Math.random() * 5;
+// const getRandomRating = () => 2;
+
+let assignmentRatingAverage = [
+  { assignment: "W1D1-2" },
+  { assignment: "W1D1-1" },
+  { assignment: "W1D1-3" },
+  { assignment: "W1D2-1" },
+  { assignment: "W1D2-2" },
+  { assignment: "W1D3-1" },
+  { assignment: "W1D3-1" },
+  { assignment: "W1D3-2" },
+  { assignment: "W1D3-3" },
+  { assignment: "W1D3-4" },
+  { assignment: "W1D3-5" },
+  { assignment: "W1D3-6" }
 ];
+
+assignmentRatingAverage = assignmentRatingAverage.map(avg => ({
+  assignment: avg.assignment,
+  difficultyRating: getRandomRating(),
+  enjoymentRating: getRandomRating()
+}));
 
 // Add label
 const assignmentRatingAverageWithLabels = assignmentRatingAverage.map(avg => ({
   assignment: avg.assignment,
-  rating: avg.rating,
-  label: `Opdracht ${avg.assignment}, rating: ${avg.rating}`
+  difficultyRating: avg.difficultyRating,
+  enjoymentRating: avg.enjoymentRating,
+  label: `Opdracht ${
+    avg.assignment
+  }, difficultyRating: ${avg.difficultyRating.toFixed(
+    1
+  )}, enjoymentRating: ${avg.enjoymentRating.toFixed(1)}`
 }));
 
 const chartExample = () => (
   <>
     <VictoryChart domainPadding={15} theme={wincTheme}>
-      <VictoryBar
-        labelComponent={<VictoryTooltip />}
-        data={assignmentRatingAverageWithLabels}
-        x="assignment"
-        y="rating"
-        tickValues={[1, 2, 3, 4, 5]}
-        tickFormat={assignmentRatingAverageWithLabels.map(
-          avg => avg.assignment
-        )}
-      />
+      <VictoryGroup offset={20}>
+        <VictoryBar
+          labelComponent={<VictoryTooltip />}
+          data={assignmentRatingAverageWithLabels}
+          x="assignment"
+          y="difficultyRating"
+          tickValues={[1, 2, 3, 4, 5]}
+          tickFormat={assignmentRatingAverageWithLabels.map(
+            avg => avg.assignment
+          )}
+        />
+        <VictoryBar
+          labelComponent={<VictoryTooltip />}
+          data={assignmentRatingAverageWithLabels}
+          x="assignment"
+          y="enjoymentRating"
+          tickValues={[1, 2, 3, 4, 5]}
+          tickFormat={assignmentRatingAverageWithLabels.map(
+            avg => avg.assignment
+          )}
+        />
+      </VictoryGroup>
       <VictoryAxis
         // tickValues specifies both the number of ticks and where
         // they are placed on the axis
@@ -947,7 +974,16 @@ const chartExample = () => (
         }}
         data={assignmentRatingAverage}
         x="assignment"
-        y="rating"
+        y="difficultyRating"
+      />
+      <VictoryLine
+        style={{
+          data: { stroke: "#ff00ff" },
+          parent: { border: "1px solid #ccc" }
+        }}
+        data={assignmentRatingAverage}
+        x="assignment"
+        y="enjoymentRating"
       />
       <VictoryAxis
         // tickValues specifies both the number of ticks and where
