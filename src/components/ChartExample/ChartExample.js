@@ -904,7 +904,6 @@ let assignmentRatingAverage = [
   { assignment: "W1D2-1" },
   { assignment: "W1D2-2" },
   { assignment: "W1D3-1" },
-  { assignment: "W1D3-1" },
   { assignment: "W1D3-2" },
   { assignment: "W1D3-3" },
   { assignment: "W1D3-4" },

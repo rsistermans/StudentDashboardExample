@@ -1,0 +1,255 @@
+{
+  "ratings": [
+    {
+      "studentId": 1,
+      "assignmentId": "W1D1-1",
+      "funRating": 4,
+      "difficultyRating": 2,
+      "time": 1570438113
+    },
+    {
+      "studentId": 1,
+      "assignmentId": "W1D2-1",
+      "funRating": 3,
+      "difficultyRating": 2,
+      "time": 1574038113
+    },
+    {
+      "studentId": 1,
+      "assignmentId": "W1D3-1",
+      "funRating": 2,
+      "difficultyRating": 4,
+      "time": 1550488113
+    },
+    {
+      "studentId": 1,
+      "assignmentId": "W2D1-1",
+      "funRating": 4,
+      "difficultyRating": 2,
+      "time": 1570428113
+    },
+    {
+      "studentId": 1,
+      "assignmentId": "W2D2-1",
+      "funRating": 4,
+      "difficultyRating": 4,
+      "time": 1750438113
+    },
+    {
+      "studentId": 1,
+      "assignmentId": "W2D3-1",
+      "funRating": 5,
+      "difficultyRating": 1,
+      "time": 1570448113
+    },
+    {
+      "studentId": 2,
+      "assignmentId": "W1D1-1",
+      "funRating": 3,
+      "difficultyRating": 3,
+      "time": 1570438113
+    },
+    {
+      "studentId": 2,
+      "assignmentId": "W1D2-1",
+      "funRating": 3,
+      "difficultyRating": 4,
+      "time": 1574038123
+    },
+    {
+      "studentId": 2,
+      "assignmentId": "W1D3-1",
+      "funRating": 1,
+      "difficultyRating": 2,
+      "time": 1558038113
+    },
+    {
+      "studentId": 2,
+      "assignmentId": "W2D1-1",
+      "funRating": 4,
+      "difficultyRating": 5,
+      "time": 1579038113
+    },
+    {
+      "studentId": 2,
+      "assignmentId": "W2D2-1",
+      "funRating": 2,
+      "difficultyRating": 4,
+      "time": 1701438113
+    },
+    {
+      "studentId": 2,
+      "assignmentId": "W2D3-1",
+      "funRating": 4,
+      "difficultyRating": 4,
+      "time": 1570838113
+    },{
+      "studentId": 3,
+      "assignmentId": "W1D1-1",
+      "funRating": 4,
+      "difficultyRating": 5,
+      "time": 1570338113
+    },
+    {
+      "studentId": 3,
+      "assignmentId": "W1D2-1",
+      "funRating": 2,
+      "difficultyRating": 5,
+      "time": 1569038113
+    },
+    {
+      "studentId": 3,
+      "assignmentId": "W1D3-1",
+      "funRating": 2,
+      "difficultyRating": 4,
+      "time": 1559138113
+    },
+    {
+      "studentId": 3,
+      "assignmentId": "W2D1-1",
+      "funRating": 3,
+      "difficultyRating": 5,
+      "time": 1550828113
+    },
+    {
+      "studentId": 3,
+      "assignmentId": "W2D2-1",
+      "funRating": 2,
+      "difficultyRating": 2,
+      "time": 1750908113
+    },
+    {
+      "studentId": 3,
+      "assignmentId": "W2D3-1",
+      "funRating": 5,
+      "difficultyRating": 1,
+      "time": 1577548113
+    },
+    {
+      "studentId": 4,
+      "assignmentId": "W1D1-1",
+      "funRating": 4,
+      "difficultyRating": 2,
+      "time": 1570338113
+    },
+    {
+      "studentId": 4,
+      "assignmentId": "W1D2-1",
+      "funRating": 2,
+      "difficultyRating": 2,
+      "time": 1578038113
+    },
+    {
+      "studentId": 4,
+      "assignmentId": "W1D3-1",
+      "funRating": 5,
+      "difficultyRating": 5,
+      "time": 1550218113
+    },
+    {
+      "studentId": 4,
+      "assignmentId": "W2D1-1",
+      "funRating": 3,
+      "difficultyRating": 5,
+      "time": 1559428113
+    },
+    {
+      "studentId": 4,
+      "assignmentId": "W2D2-1",
+      "funRating": 2,
+      "difficultyRating": 1,
+      "time": 1796438113
+    },
+    {
+      "studentId": 4,
+      "assignmentId": "W2D3-1",
+      "funRating": 3,
+      "difficultyRating": 3,
+      "time": 1570658113
+    },
+    {
+      "studentId": 5,
+      "assignmentId": "W1D1-1",
+      "funRating": 2,
+      "difficultyRating": 2,
+      "time": 1570108113
+    },
+    {
+      "studentId": 5,
+      "assignmentId": "W1D2-1",
+      "funRating": 1,
+      "difficultyRating": 1,
+      "time": 1574558113
+    },
+    {
+      "studentId": 5,
+      "assignmentId": "W1D3-1",
+      "funRating": 2,
+      "difficultyRating": 5,
+      "time": 1530488113
+    },
+    {
+      "studentId": 5,
+      "assignmentId": "W2D1-1",
+      "funRating": 4,
+      "difficultyRating": 4,
+      "time": 1577428113
+    },
+    {
+      "studentId": 5,
+      "assignmentId": "W2D2-1",
+      "funRating": 2,
+      "difficultyRating": 3,
+      "time": 1756938113
+    },
+    {
+      "studentId": 5,
+      "assignmentId": "W2D3-1",
+      "funRating": 5,
+      "difficultyRating": 5,
+      "time": 1490448113
+    }
+  ],
+  "students": [
+    {
+      "studentId": 1,
+      "studentName": "Hansie van de Haar"
+    },
+    {
+      "studentId": 2,
+      "studentName": "Dries Mertens"
+    },
+    {
+      "studentId": 3,
+      "studentName": "Kevin Strootman"
+    },
+    {
+      "studentId": 4,
+      "studentName": "Ricky van Wolfswinkel"
+    },
+    {
+      "studentId": 5,
+      "studentName": "Sebastien Haller"
+    },
+    {
+      "studentId": 6,
+      "studentName": "Michel Vorm"
+    },
+    {
+      "studentId": 7,
+      "studentName": "Nana Asare"
+    },
+    {
+      "studentId": 8,
+      "studentName": "Simon Cziommer"
+    },
+    {
+      "studentId": 9,
+      "studentName": "Dick Advocaat"
+    },
+    {
+      "studentId": 10,
+      "studentName": "Erik Ten Hag"
+    }
+  ]
+}
